@@ -1,0 +1,44 @@
+cpu-bind=MASK - bp1-compute189, task  0  0 [2817064]: mask 0x100000001 set
+null
+null
+null
+null
+Failed to process sampleB_part1.FASTQ
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: Midline 'NNNNNCATAAACCGATGACTATTCTCTACCAATCACAAGGACATTGGCACCCTATACYTACTATTTGGTGCCTGAGCAGGAATAGTAGGCACCGGCCTAAGCTTATTAATTCGTGCTGAATTAGGCCAACCTGGCACACTTATTGGAGACGACCAAATYTATAATGTTTTAGTAACAGCTCACGCCTTCGTAATAATCTTCTTTATAGTAATGCCTATTATAATTGGGGGGTTTGGAAACTGACTWGTCCCTTTAATAATCGGAGCCCCCGAYATGGCTTTCCCTCGTCTAAATAACATAAGCTTTTGACTACTTCCTCCTTCTTTCCTACTATTAATAGCGTCTTCAATAGTTGAAGCCGGCGCAGGCACAGGNTGNACTGTATATNCNCNTTTAGCAGGAAATCTAGCACATGCAGGAGCCTCAGTCGACCTKACTATTTTCTCTCTACATTTRGCCGGCGTATCTTCAATCCTCGGAGCTATCAACTTCATTACAACTATTATTAACATAAAACCACCCGCT' didn't start with '+' at 3
+	at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:179)
+	at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:93)
+	at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:106)
+	at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:62)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunner.java:163)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.java:125)
+	at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:316)
+null
+null
+null
+null
+null
+null
+null
+null
+Started analysis of sampleA_part1.FASTQ
+Analysis complete for sampleA_part1.FASTQ
+Started analysis of sampleA_part2.FASTQ
+Analysis complete for sampleA_part2.FASTQ
+Started analysis of sampleA_part3.FASTQ
+Analysis complete for sampleA_part3.FASTQ
+Started analysis of sampleB_part2.FASTQ
+Analysis complete for sampleB_part2.FASTQ
+Started analysis of sampleB_part3.FASTQ
+Analysis complete for sampleB_part3.FASTQ
+Started analysis of sampleC_part1.FASTQ
+Analysis complete for sampleC_part1.FASTQ
+Started analysis of sampleC_part2.FASTQ
+Analysis complete for sampleC_part2.FASTQ
+Started analysis of sampleC_part3.FASTQ
+Analysis complete for sampleC_part3.FASTQ
+Started analysis of sampleD_part1.FASTQ
+Analysis complete for sampleD_part1.FASTQ
+Started analysis of sampleD_part2.FASTQ
+Analysis complete for sampleD_part2.FASTQ
+Started analysis of sampleD_part3.FASTQ
+Analysis complete for sampleD_part3.FASTQ
